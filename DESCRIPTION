@@ -1,0 +1,16 @@
+Package: knlibr
+Type: Package
+Title: R Library for Knowledge Network (KN)
+Version: 0.1.0
+Author: Jonathan Yu
+Maintainer: Jonathan Yu <jonathan.yu@csiro.au>
+Description: R Library for Knowledge Network (KN).
+    KN provides a platform to discover and access data layers from
+    a range of sources. knlib enables users to access these data layers
+    from KN in the R environment.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1.9000
+Imports:
+	httr
