@@ -34,6 +34,7 @@ kn_data_search <- function(q, offset, limit) {
 #' @param offset Search offset
 #' @param limit Number of results to return
 #' @return Data frame result as <pid, title> from KN
+#' @export
 #' @examples
 #' kn_feat_search('water', 'data', 0, 5)
 kn_feat_search <- function(q, offset, limit) {
@@ -66,6 +67,7 @@ kn_feat_search <- function(q, offset, limit) {
 #' @param offset Search offset
 #' @param limit Number of results to return
 #' @return Result list from KN with all fields in each item
+#' @export
 #' @examples
 #' knsearch_list('water', 'data', 0, 5)
 knsearch_list <- function(q, type, offset, limit) {
