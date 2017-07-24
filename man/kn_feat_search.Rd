@@ -2,7 +2,7 @@
 % Please edit documentation in R/knlib_data_functions.R
 \name{kn_feat_search}
 \alias{kn_feat_search}
-\title{Search dataset in KN}
+\title{Search geo-feature in KN}
 \usage{
 kn_feat_search(q, offset, limit)
 }
@@ -17,8 +17,8 @@ kn_feat_search(q, offset, limit)
 Data frame result as <pid, title> from KN
 }
 \description{
-Search dataset in KN
+Search geo-feature in KN
 }
 \examples{
-kn_feat_search('water', 'data', 0, 5)
+kn_feat_search('namoi', 0, 5)
 }

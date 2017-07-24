@@ -4,8 +4,9 @@
 #' @param offset Search offset
 #' @param limit Number of results to return
 #' @return Data frame result as <pid, title> from KN
+#' @export
 #' @examples
-#' kn_data_search('water', 'data', 0, 5)
+#' kn_data_search('water', 0, 5)
 kn_data_search <- function(q, offset, limit) {
   if (!requireNamespace("httr", quietly = TRUE)) {
     stop("httr needed for this function to work. Please install it.",
@@ -28,7 +29,7 @@ kn_data_search <- function(q, offset, limit) {
   return(df)
 }
 
-#' Search dataset in KN
+#' Search geo-feature in KN
 #'
 #' @param q Search query
 #' @param offset Search offset
@@ -36,7 +37,7 @@ kn_data_search <- function(q, offset, limit) {
 #' @return Data frame result as <pid, title> from KN
 #' @export
 #' @examples
-#' kn_feat_search('water', 'data', 0, 5)
+#' kn_feat_search('namoi', 0, 5)
 kn_feat_search <- function(q, offset, limit) {
   if (!requireNamespace("httr", quietly = TRUE)) {
     stop("httr needed for this function to work. Please install it.",

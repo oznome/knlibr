@@ -20,5 +20,5 @@ Data frame result as <pid, title> from KN
 Search dataset in KN
 }
 \examples{
-kn_data_search('water', 'data', 0, 5)
+kn_data_search('water', 0, 5)
 }
