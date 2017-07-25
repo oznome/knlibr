@@ -2,4 +2,5 @@
 
 export(kn_data_search)
 export(kn_feat_search)
+export(kn_get_geojson)
 export(knsearch_list)
